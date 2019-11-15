@@ -1,0 +1,279 @@
+
+body {
+         margin: 0 auto;
+        max-width: 740px;
+        min-width: 420px;
+        background: url('../imagens/pontebg1.jpg') no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50%;
+}
+div#aviso{
+  margin: 0 auto;
+  width: 100%;
+  background-color: yellow;
+  color: red;
+}
+
+#logo1{     
+           max-width: 95%;
+} 
+.welcome{ 
+        font-weight: bolder;
+        text-shadow: 0.01em 0.01em 0.1em black;
+        color:white;
+        font-stretch:ultra-condensed;      
+}
+#logobg {
+        border-radius: 10px;
+        background-color: white;
+        background-size: cover;
+        margin: 10px auto;
+        width: 80%; /*largura da imagem em relação a tela */
+        filter:alpha(opacity=90); /*transparência do bg */
+        opacity: 0.9;
+        -moz-opacity:0.9;
+        -webkit-opacity:0.9;
+}
+#logobg table{
+        margin: 0 auto;
+        width: 300px;
+        color: black;
+        text-shadow: 0.2em 0.2em 0.2em gray;
+}
+#bgcorpo{
+		background-color: white;
+		border-radius: 10px;
+   	filter:alpha(opacity=90); /* transparência do bg */
+		 opacity: 0.9;
+               -moz-opacity:0.9;
+               -webkit-opacity:0.9;
+		background-size: cover;
+		 margin: 10px auto;
+			width: 80%; /* largura da imagem em relação a tela */
+			height: 95%; /*tamanho vertical */
+ }
+#txtcorpo{ 
+        color: black;
+        margin: 0 10%; /* distancia do texto para o menu, e para as laterais */
+        max-width: 100%;			
+}
+#txtcorpo p{
+        font-size: 17px;
+	text-align:justify;
+	font-family:tahoma,geneva,sans-serif;
+}
+
+#menu { 
+        width: 80%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 0 0px;
+        margin: 10px auto;
+        background-color: #EDEDED;
+        list-style: none;
+}
+
+#menu ul li { 
+        display: inline;
+}
+#menu ul li a {
+        font-size: 17px;
+        padding: 3px 2%;
+        display: inline-block;
+        /* visual do link */
+        background-color:#EDEDED;
+        color: #333;
+        text-decoration: none;
+        border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+        background-color:#D6D6D6;
+        color: #6D6D6D;
+        border-bottom:3px solid gray;
+}
+
+#quemsomos dt{
+	text-align:justify;
+	font-family:tahoma,geneva,sans-serif;
+        font-size: 25px;
+}
+
+#fotosquemsomos th{
+        font-size: 15px;
+	    text-align: center;
+}
+
+.tabelacapitulos{
+      display:block;
+      width: 80%;
+      text-align: center;
+      margin: auto;
+
+}
+
+.tabelacapitulos a{
+	text-decoration:none;
+	color: blue;
+} 
+.tabelacapitulos a:hover{
+	color:turquoise;
+}
+
+#email{ 
+       display: block;
+      text-align: center;
+         margin: 0 auto;
+        max-width: 60%;
+         font-weight: bolder;
+        
+}
+
+#categoria{
+    width: 97%;
+    border: 1px solid black;
+    margin: 3% auto;
+}
+
+#diversos {
+        text-align:center;
+      width: 70%;
+      margin: 0 auto;
+      border: 1px solid black;
+     
+}
+#diversos p{
+     list-style-type: none;
+     color: #000080;
+}
+
+#diversos a{
+	text-decoration:none;
+	color: blue;
+}
+#diversos a:hover{
+	color:turquoise;
+}
+
+.tabelaconto{
+            display:block;
+           border: 1px solid black;
+         	width: 90%;
+         text-align: center;
+         margin: 0 auto;
+}
+.tabelaconto th{
+        text-align:center;
+          color: #000080;
+        font-weight:bolder;
+}
+.tabelaconto p{
+    text-align:center;
+    font-family:tahoma,geneva,sans-serif;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+}
+#botao{
+    width:130px;
+}
+
+/*
+#textos{
+    float: left;
+    list-style-type: none;
+    border: 1px solid black;
+
+}
+#textos p{
+    text-align:center;
+     color: #000080;
+     font-weight:bolder;
+    
+}
+#textos li{
+    float: left;
+    position: relative;
+	border-right: 1px solid black;
+	background-color: white;
+	width: 200px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#textos li a{
+	text-decoration:none;
+	color: blue;
+} 
+#textos a:hover{
+	color:turquoise;
+}
+#textos li ul{
+    margin-top:2px;
+	position:absolute;
+	top: 28px;
+    display: none;  
+}
+
+#textos li:hover ul, #textos li ul li:hover ul, #textos li.over ul, #textos li ul li.over ul{
+ display:block;
+}
+
+#textos li ul li{
+ border: 1px solid black;
+ display: block;
+}
+*/
+
+h1 {
+        text-align: center;
+}
+.imagem{
+    display: block;
+    position: relative;
+    max-width: 70%;
+    max-height: 400px;
+    margin: 0 auto;
+}
+.imagemminiatura{
+    display: block;
+    position: relative;
+    max-width: 30%;
+    max-height: 250px;
+    margin: 0 auto;
+}
+
+.oculto {
+        display: none;
+}
+
+.frasefinal {	
+        display: block;
+        font-style:italic;
+        font-size: 40px;
+        margin: 0 auto;
+        text-shadow: 0.1em 0.1em 0.1em lightgray;
+        width: 50%;
+
+}
+
+.frasecentro{
+    width:50%;
+   margin: 0 auto;
+
+}
+
+#msgfoot p{
+        font-size: 20px;
+        font-weight: bold;
+        color:red;
+        text-align: center;
+        
+}
+#nomeautor p{
+        font-size: 15px;
+        color: gray;
+        text-align: right;
+}
