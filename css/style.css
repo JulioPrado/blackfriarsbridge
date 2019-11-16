@@ -242,10 +242,14 @@ body {
 }
 
 @media screen and (max-width: 540px){/*======== MOBILE ====================== */
-  body, #conteudo {
-         width: 100%;
-         margin-left: 0px;
-         padding: 0px;
+  body{
+    width: 100%;   
+  }
+
+  #conteudo{
+      width: 100%;
+      margin-left: 0px;
+      padding: 0px;
   }
 
 }
