@@ -13,5 +13,5 @@ $(function() {
 
     $('#conteudo').load('pages/home.html');
     
-    $('#menu').removeClass('oculto');
+    /*$('#menu').removeClass('oculto');*/
 })

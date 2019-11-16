@@ -33,12 +33,6 @@ h1,h2,h3,h4 {
         text-align: right;
 }
 
-#conteudo{
-  margin-top: 65px;
-  width: 700px;
-  border-radius: 0px;
-}
-
 #cabecalho-conteiner {
         margin: 0px auto;
         width: 100%;
@@ -101,14 +95,15 @@ body {
 #bgcorpo{
 		background-color: white;
 		border-radius: 10px;
-   	filter:alpha(opacity=90); /* transparência do bg */
-		 opacity: 0.9;
+   	filter:alpha(opacity=90);
+		opacity: 0.9;
                -moz-opacity:0.9;
                -webkit-opacity:0.9;
 		background-size: cover;
-		 margin: 10px auto;
-			width: 80%; /* largura da imagem em relação a tela */
-			height: 95%; /*tamanho vertical */
+		margin: 10px auto;
+    /* margin-top: 65px; */
+		width: 700px;
+		height: 95%;
  }
 
 #menu { 
@@ -246,10 +241,9 @@ body {
     width: 100%;   
   }
 
-  #conteudo{
+  #bgcorpo{
       width: 100%;
-      margin-left: 0px;
-      padding: 0px;
-  }
+      height: 95%;
+ }
 
 }
