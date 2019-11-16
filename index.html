@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- OG Graph-->
-    <meta property="fb:app_id" content="1234567890" /> 
-    <meta property="og:description" content="O Bfb é o lugar onde você poderá encontrar contos independentes. Pequenas narrativas podendo ou não ser baseadas em algum universo fictício.">
+    <meta property="fb:app_id" content="1234567890" />
+    <meta property="og:description" content="A Clave tenta até hoje ocultar as histórias envolvendo um Caçador de Sombras e uma Lupina membro da Praetor Lupus, e elas não foram contadas nos livros e em nenhum outro lugar, até agora. Bem-vindo ao BlackFriars Bridge.">
     <meta property="og:url" content="http://blackfriarsbridge.ml/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="BlackFriars Bridge">
@@ -27,6 +27,15 @@
 
     gtag('config', 'UA-106863313-1');
     </script>
+    <script type="text/javascript">
+            function randombg(){
+      var random= Math.floor(Math.random() * 3) + 0;
+      var bigSize = ["url('imagens/pontebg1.jpg')",
+                     "url('imagens/pontebg2.jpg')",
+                     "url('imagens/pontebg3.jpg')"];
+      document.getElementById("random").style.backgroundImage=bigSize[random];
+    }
+    </script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -37,24 +46,22 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>-= BlackFriars Bridge =-</title>
 </head>
-<body>
-    <div id="aviso">
-    <marquee>Esse site é um memorial da primeira versão do site bfb, para visualizar a nova versão e os conteúdos novos <a href="">clique aqui</a></marquee>
-    </div>
-        <div id="logobg">
-            <table>
-            <tr>
-            <td><img src="imagens/logo1.png" alt="Logo blackfriars bridge" id="logo1" width="175" height="100"></td>
-            <td><h1>BlackFriars Bridge</h1></td>
-            </tr>
-            </table>
+<body id="random" onload="randombg()">
+
+        <div id="cabecalho-conteiner">
+            <div id="cabecalho-logo">
+            </div>
+            <div id="cabecalho-texto">
+            <h1>BlackFriars Bridge</h1>
+            <h4>Contos independentes</h4>
+            </div>
         </div>
         
         <div id="menu" >
             <ul>
                 <li><a href="#pages/home">Home</a></li>
-                <li><a href="#pages/quemsomos">Quem somos</a></li>
-                <li><a href="#pages/textos">Textos</a></li>
+                <li><a href="#pages/textos">Contos</a></li>
+                <li><a href="#pages/quemsomos">Sobre</a></li>
             </ul>
         </div>
         

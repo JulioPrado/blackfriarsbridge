@@ -1,48 +1,97 @@
 
+
+h1,h2,h3,h4 {
+        text-align: center;
+}
+
+@font-face {
+     font-family: 'Pterra';
+     src: url('../fonts/Pterra.ttf');
+}
+
+.oculto {
+        display: none;
+}
+.frasefinal { 
+        display: block;
+        font-style:italic;
+        font-size: 40px;
+        margin: 0 auto;
+        text-shadow: 0.1em 0.1em 0.1em lightgray;
+        width: 50%;
+}
+
+.frasecentro{
+    width:50%;
+   margin: 0 auto;
+
+}
+
+#nomeautor p{
+        font-size: 15px;
+        color: gray;
+        text-align: right;
+}
+
+#cabecalho-conteiner {
+        margin: 0px auto;
+        width: 100%;
+        height: 150px;
+}
+
+#cabecalho-logo{
+        display: inline-block;
+        float: left;
+        margin: 10px auto;
+        width: 30%;
+        height: 150px;
+        background: url('../imagens/logo1.png') no-repeat center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+}
+
+#cabecalho-texto{
+       display: inline-block;
+       float: left;
+        margin: 0px auto;
+        width: 58%;
+        height: 150px;
+}
+
+#cabecalho-texto h1{
+  text-shadow: 1px 1px 2px lightgrey;
+}
+
 body {
-         margin: 0 auto;
-        max-width: 740px;
-        min-width: 420px;
-        background: url('../imagens/pontebg1.jpg') no-repeat center top fixed;
+        font-family: 'Pterra';
+        color: black;
+        margin: 0 auto;
+        max-width: 700px;
+        background-repeat: no-repeat:
+        background-position: center top;
+        background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position: 50%;
 }
-div#aviso{
-  margin: 0 auto;
+
+#random{
   width: 100%;
-  background-color: yellow;
-  color: red;
+  height: 300px;
 }
 
-#logo1{     
-           max-width: 95%;
-} 
+
 .welcome{ 
         font-weight: bolder;
         text-shadow: 0.01em 0.01em 0.1em black;
         color:white;
         font-stretch:ultra-condensed;      
 }
-#logobg {
-        border-radius: 10px;
-        background-color: white;
-        background-size: cover;
-        margin: 10px auto;
-        width: 80%; /*largura da imagem em relação a tela */
-        filter:alpha(opacity=90); /*transparência do bg */
-        opacity: 0.9;
-        -moz-opacity:0.9;
-        -webkit-opacity:0.9;
-}
-#logobg table{
-        margin: 0 auto;
-        width: 300px;
-        color: black;
-        text-shadow: 0.2em 0.2em 0.2em gray;
-}
+
 #bgcorpo{
 		background-color: white;
 		border-radius: 10px;
@@ -55,23 +104,14 @@ div#aviso{
 			width: 80%; /* largura da imagem em relação a tela */
 			height: 95%; /*tamanho vertical */
  }
-#txtcorpo{ 
-        color: black;
-        margin: 0 10%; /* distancia do texto para o menu, e para as laterais */
-        max-width: 100%;			
-}
-#txtcorpo p{
-        font-size: 17px;
-	text-align:justify;
-	font-family:tahoma,geneva,sans-serif;
-}
 
 #menu { 
-        width: 80%;
-        border-radius: 10px;
+        float: left;
+        width: 100%;
+        height: 35px;
         text-align: center;
         padding: 0 0px;
-        margin: 10px auto;
+        margin: 10px 0;
         background-color: #EDEDED;
         list-style: none;
 }
@@ -80,8 +120,9 @@ div#aviso{
         display: inline;
 }
 #menu ul li a {
-        font-size: 17px;
-        padding: 3px 2%;
+        font-size: 1.6em;
+        padding: 0px 2%;
+        width: 30%;
         display: inline-block;
         /* visual do link */
         background-color:#EDEDED;
@@ -93,6 +134,17 @@ div#aviso{
         background-color:#D6D6D6;
         color: #6D6D6D;
         border-bottom:3px solid gray;
+}
+
+#txtcorpo{ 
+        color: black;
+        margin: 0 10%; /* distancia do texto para o menu, e para as laterais */
+        max-width: 100%;			
+}
+#txtcorpo p{
+        font-size: 17px;
+	text-align:justify;
+	font-family:tahoma,geneva,sans-serif;
 }
 
 #quemsomos dt{
@@ -120,15 +172,6 @@ div#aviso{
 } 
 .tabelacapitulos a:hover{
 	color:turquoise;
-}
-
-#email{ 
-       display: block;
-      text-align: center;
-         margin: 0 auto;
-        max-width: 60%;
-         font-weight: bolder;
-        
 }
 
 #categoria{
@@ -180,56 +223,6 @@ div#aviso{
     width:130px;
 }
 
-/*
-#textos{
-    float: left;
-    list-style-type: none;
-    border: 1px solid black;
-
-}
-#textos p{
-    text-align:center;
-     color: #000080;
-     font-weight:bolder;
-    
-}
-#textos li{
-    float: left;
-    position: relative;
-	border-right: 1px solid black;
-	background-color: white;
-	width: 200px;
-	line-height: 30px;
-	text-align: center;
-}
-
-#textos li a{
-	text-decoration:none;
-	color: blue;
-} 
-#textos a:hover{
-	color:turquoise;
-}
-#textos li ul{
-    margin-top:2px;
-	position:absolute;
-	top: 28px;
-    display: none;  
-}
-
-#textos li:hover ul, #textos li ul li:hover ul, #textos li.over ul, #textos li ul li.over ul{
- display:block;
-}
-
-#textos li ul li{
- border: 1px solid black;
- display: block;
-}
-*/
-
-h1 {
-        text-align: center;
-}
 .imagem{
     display: block;
     position: relative;
@@ -245,35 +238,9 @@ h1 {
     margin: 0 auto;
 }
 
-.oculto {
-        display: none;
-}
+@media screen and (max-width: 540px){/*======== MOBILE ====================== */
+  body {
+         max-width: 100%;
+  }
 
-.frasefinal {	
-        display: block;
-        font-style:italic;
-        font-size: 40px;
-        margin: 0 auto;
-        text-shadow: 0.1em 0.1em 0.1em lightgray;
-        width: 50%;
-
-}
-
-.frasecentro{
-    width:50%;
-   margin: 0 auto;
-
-}
-
-#msgfoot p{
-        font-size: 20px;
-        font-weight: bold;
-        color:red;
-        text-align: center;
-        
-}
-#nomeautor p{
-        font-size: 15px;
-        color: gray;
-        text-align: right;
 }
