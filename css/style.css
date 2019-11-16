@@ -92,20 +92,6 @@ body {
         font-stretch:ultra-condensed;      
 }
 
-#bgcorpo{
-		background-color: white;
-		border-radius: 10px;
-   	filter:alpha(opacity=90);
-		opacity: 0.9;
-               -moz-opacity:0.9;
-               -webkit-opacity:0.9;
-		background-size: cover;
-		margin: 10px auto;
-    /* margin-top: 65px; */
-		width: 700px;
-		height: 95%;
- }
-
 #menu { 
         float: left;
         width: 100%;
@@ -136,6 +122,20 @@ body {
         color: #6D6D6D;
         border-bottom:3px solid gray;
 }
+
+#bgcorpo{
+    background-color: white;
+    border-radius: 10px;
+    filter:alpha(opacity=90);
+    opacity: 0.9;
+               -moz-opacity:0.9;
+               -webkit-opacity:0.9;
+    background-size: cover;
+    margin: 10px auto;
+    margin-top: 65px;
+    width: 700px;
+    height: 95%;
+ }
 
 #txtcorpo{ 
         color: black;
