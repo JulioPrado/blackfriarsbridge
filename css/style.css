@@ -232,10 +232,7 @@ body {
 @media screen and (max-width: 540px){/*======== MOBILE ====================== */
   body{
     width: 100%;   
-    -webkit-background-size: contain ;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+    background-size: 50%;
   }
 
   #bgcorpo{
