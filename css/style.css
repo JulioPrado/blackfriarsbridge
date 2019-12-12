@@ -80,6 +80,7 @@ body {
 
 
 .welcome{ 
+        margin: 300px auto;
         font-weight: bolder;
         text-shadow: 0.01em 0.01em 0.1em black;
         color:white;
