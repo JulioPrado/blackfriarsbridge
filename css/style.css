@@ -121,6 +121,12 @@ body {
 }
 
 */
+
+#menu a{
+  font-size: 1.5em;
+  width: 150px;
+}
+
 #bgcorpo{
     background-color: white;
     filter:alpha(opacity=90);
