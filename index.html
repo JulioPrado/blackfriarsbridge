@@ -45,23 +45,39 @@
     <title>-= BlackFriars Bridge =-</title>
 </head>
 <body id="random" onload="randombg()">
-
-        <div id="cabecalho-conteiner">
+    <header>
+       <!-- <div id="cabecalho-conteiner">
             <div id="cabecalho-logo">
             </div>
             <div id="cabecalho-texto">
-            <h1>BlackFriars Bridge</h1>
-            <h4>Contos independentes</h4>
+            
             </div>
         </div>
-        <div id="menu" >
-            <ul>
-                <li><a href="#pages/home">Home</a></li>
-                <li><a href="#pages/textos">Contos</a></li>
-                <li><a href="#pages/quemsomos">Sobre</a></li>
-            </ul>
+    -->
+        <div class="row justify-content-center">        
+
+            <img src="imagens/logo1.png" class="navbar-brand col-6" style="min-width:100px; max-width:180px;">
+                <div class="col-6">
+                    <h1 class="display-4">BlackFriars Bridge</h1>
+                    <h4>Contos independentes</h4>
+                </div>
         </div>
-        
+            
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <!-- Menu Hamburguer (baseado na classe navbar-expand-sm definido na tag nav-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse" id="nav-target">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item" ><a class="nav-link" href="#pages/home">Home</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="#pages/textos">Contos</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="#pages/quemsomos">Sobre</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
         <!-- Conteúdo Dinamico -->
         <div id="conteudo">
         </div>

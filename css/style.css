@@ -20,6 +20,9 @@ h1,h2,h3,h4 {
         text-shadow: 0.1em 0.1em 0.1em lightgray;
         width: 50%;
 }
+.marcador{
+  border: 1px solid red;
+}
 
 .frasecentro{
     width:50%;
@@ -67,7 +70,6 @@ body {
         font-family: 'Pterra';
         color: black;
         margin: 0 auto;
-        max-width: 700px;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
@@ -86,7 +88,7 @@ body {
         color:white;
         font-stretch:ultra-condensed;      
 }
-
+/*
 #menu { 
         float: left;
         width: 100%;
@@ -106,7 +108,7 @@ body {
         padding: 0px 2%;
         width: 30%;
         display: inline-block;
-        /* visual do link */
+         visual do link 
         background-color:#EDEDED;
         color: #333;
         text-decoration: none;
@@ -118,6 +120,7 @@ body {
         border-bottom:3px solid gray;
 }
 
+*/
 #bgcorpo{
     background-color: white;
     filter:alpha(opacity=90);
@@ -234,6 +237,9 @@ body {
   body{
     width: 100%;   
     background-size: cover 100%;
+  }
+  header h1{
+    font-size: 0.5em;
   }
 
   #bgcorpo{
