@@ -5,7 +5,7 @@ $(function(){
 
 function hashchanged(){
     var hash = location.hash.replace('#','') || './pages/home';
-    $.get({
+    jQuery.get({
         url: hash + '.html',
         cache: false
     }).done(function(data){
