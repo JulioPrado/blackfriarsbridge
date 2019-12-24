@@ -238,9 +238,9 @@ body {
     width: 100%;   
     background-size: cover 100%;
   }
-  header h1{
-    font-size: 0.5em;
-  }
+#NomeCabecalho{
+  font-size: 2.6em;
+}
 
   #bgcorpo{
       width: 100%;
