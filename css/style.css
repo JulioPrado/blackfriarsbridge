@@ -80,7 +80,7 @@ body {
         background-position:;
 }
 
-
+/*
 .welcome{ 
         margin: 300px auto;
         font-weight: bolder;
@@ -88,7 +88,7 @@ body {
         color:white;
         font-stretch:ultra-condensed;      
 }
-/*
+
 #menu { 
         float: left;
         width: 100%;
@@ -127,6 +127,7 @@ body {
   width: 150px;
 }
 
+/*
 #bgcorpo{
     background-color: white;
     filter:alpha(opacity=90);
@@ -139,7 +140,7 @@ body {
     width: 700px;
     height: 95%;
  }
-
+*/
 #txtcorpo{ 
         color: black;
         margin: 0 10%; 
