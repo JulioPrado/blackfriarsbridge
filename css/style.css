@@ -12,6 +12,14 @@ h1,h2,h3,h4 {
 .oculto {
         display: none;
 }
+
+#sectionContosDiversos{
+  background-color: #c7cbdb;
+}
+#sectionContosShadowhunter{
+
+}
+
 .frasefinal { 
         display: block;
         font-style:italic;
@@ -35,35 +43,11 @@ h1,h2,h3,h4 {
         text-align: right;
 }
 
-#cabecalho-conteiner {
-        margin: 0px auto;
-        width: 100%;
-        height: 150px;
-}
-
-#cabecalho-logo{
-        display: inline-block;
-        float: left;
-        margin: 10px auto;
-        width: 30%;
-        height: 150px;
-        background: url('../imagens/logo1.png') no-repeat center;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-}
-
-#cabecalho-texto{
-       display: inline-block;
-       float: left;
-        margin: 0px auto;
-        width: 58%;
-        height: 150px;
-}
-
-#cabecalho-texto h1{
-  text-shadow: 1px 1px 2px lightgrey;
+header {
+  background-image: url("../imagens/pontebg2.jpg");
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 60%; 
 }
 
 body {
@@ -80,149 +64,26 @@ body {
         background-position:;
 }
 
-/*
-.welcome{ 
-        margin: 300px auto;
-        font-weight: bolder;
-        text-shadow: 0.01em 0.01em 0.1em black;
-        color:white;
-        font-stretch:ultra-condensed;      
-}
-
-#menu { 
-        float: left;
-        width: 100%;
-        height: 35px;
-        text-align: center;
-        padding: 0 0px;
-        margin: 10px 0;
-        background-color: #EDEDED;
-        list-style: none;
-}
-
-#menu ul li { 
-        display: inline;
-}
-#menu ul li a {
-        font-size: 1.6em;
-        padding: 0px 2%;
-        width: 30%;
-        display: inline-block;
-         visual do link 
-        background-color:#EDEDED;
-        color: #333;
-        text-decoration: none;
-        border-bottom:3px solid #EDEDED;
-}
-#menu ul li a:hover {
-        background-color:#D6D6D6;
-        color: #6D6D6D;
-        border-bottom:3px solid gray;
-}
-
-*/
-
 #menu a{
   font-size: 1.5em;
   width: 150px;
 }
 
-/*
-#bgcorpo{
-    background-color: white;
-    filter:alpha(opacity=90);
-    opacity: 0.9;
-               -moz-opacity:0.9;
-               -webkit-opacity:0.9;
-    background-size: cover;
-    margin: 10px auto;
-    margin-top: 65px;
-    width: 700px;
-    height: 95%;
- }
-*/
 #txtcorpo{ 
-        color: black;
         margin: 0 10%; 
         max-width: 100%;			
 }
 #txtcorpo p{
         font-size: 17px;
-	       text-align:justify;
 }
 
 #quemsomos dt{
-	text-align:justify;
   font-size: 25px;
 }
 
 #fotosquemsomos th{
-        font-size: 15px;
+      font-size: 15px;
 	    text-align: center;
-}
-
-.tabelacapitulos{
-      display:block;
-      width: 80%;
-      text-align: center;
-      margin: auto;
-
-}
-
-.tabelacapitulos a{
-	text-decoration:none;
-	color: blue;
-} 
-.tabelacapitulos a:hover{
-	color:turquoise;
-}
-
-#categoria{
-    width: 97%;
-    border: 1px solid black;
-    margin: 3% auto;
-}
-
-#diversos {
-        text-align:center;
-      width: 70%;
-      margin: 0 auto;
-      border: 1px solid black;
-     
-}
-#diversos p{
-     list-style-type: none;
-     color: #000080;
-}
-
-#diversos a{
-	text-decoration:none;
-	color: blue;
-}
-#diversos a:hover{
-	color:turquoise;
-}
-
-.tabelaconto{
-            display:block;
-           border: 1px solid black;
-         	width: 90%;
-         text-align: center;
-         margin: 0 auto;
-}
-.tabelaconto th{
-        text-align:center;
-          color: #000080;
-        font-weight:bolder;
-}
-.tabelaconto p{
-    text-align:center;
-    font-size: 14px;
-    width: 90%;
-    margin: 0 auto;
-}
-#botao{
-    width:130px;
 }
 
 .imagem{
@@ -245,21 +106,20 @@ body {
     width: 100%;   
     background-size: cover 100%;
   }
-#NomeCabecalho{
-  font-size: 2.6em;
-}
 
-  #bgcorpo{
-      width: 100%;
-      height: 95%;
- }
+  header{
+    background-image:none;
+  }
+
+  #NomeCabecalho{
+    font-size: 2.6em;
+  }
 
  #txtcorpo{ 
-        color: black;
         margin: 0 5%; 
   }
   #txtcorpo p{
-        font-size: 1.5em;
+        font-size: 1.3em;
   }
 
 }
