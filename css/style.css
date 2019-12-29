@@ -14,8 +14,8 @@ h1,h2,h3,h4 {
 }
 
 #sectionContosDiversos{
-  background-color: #c7cbdb;
-}
+
+  }
 #sectionContosShadowhunter{
 
 }
@@ -92,6 +92,11 @@ body {
     background-image: url("../imagens/pontebg11.jpg");
     background-position: 0% 63%; 
   }
+
+#menu a{
+  font-size: 1.3em;
+  width: 100px;
+}
 
   #NomeCabecalho{
     font-size: 2.6em;
