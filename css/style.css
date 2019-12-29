@@ -73,8 +73,9 @@ body {
         margin: 0 10%; 
         max-width: 100%;			
 }
-#txtcorpo p{
+p{
         font-size: 17px;
+        text-indent: 25px;
 }
 
 #quemsomos dt{
