@@ -6,6 +6,11 @@ html, body{
   height: 80%;
 }
 
+.teste{
+  width: 50%;
+}
+
+
 /* Tipografia
 ==========================================================
 */
@@ -103,6 +108,10 @@ header {
     background-image: url("../imagens/pontebg11.jpg");
     background-position: 0% 63%; 
   }
+
+  .teste{
+  width: 100%;
+}
 
   #menu a{
     font-size: 1.3em;
